@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aurora Rent Car & Tour | Rental Mobil Bandung</title>
+
+  <meta
+    name="description"
+    content="Aurora Rent Car & Tour, pilihan rental mobil di Bandung untuk perjalanan harian, liburan, dan bisnis."
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a href="#beranda" class="logo">
+        <img
+          src="image/aurora-logo.png"
+          alt="Aurora Rent Car & Tour"
+          width="150"
+        >
+      </a>
+
+      <div class="nav-links">
+        <a href="#beranda">Beranda</a>
+        <a href="#armada">Armada</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#kontak">Kontak</a>
+      </div>
+
+      <a href="#armada" class="btn btn-primary">
+        Pilih Mobil
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- BANNER UTAMA -->
+    <section id="beranda" class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="section-label">RENTAL MOBIL BANDUNG</p>
+
+          <h1>
+            Perjalanan Nyaman,
+            <span>Pilihan Berkelas.</span>
+          </h1>
+
+          <p class="hero-description">
+            Temukan mobil pilihan untuk perjalanan harian,
+            liburan, dan kebutuhan bisnis Anda bersama Aurora.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#armada" class="btn btn-primary">
+              Jelajahi Armada
+            </a>
+
+            <a href="#cara-sewa" class="btn btn-outline">
+              Cara Menyewa
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <img
+            src="image/hero-mobil.png"
+            alt="Mobil pilihan Aurora untuk perjalanan Anda"
+            width="650"
+            fetchpriority="high"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- KEUNGGULAN -->
+    <section class="advantages" aria-label="Keunggulan layanan">
+      <div class="container advantages-grid">
+        <div class="advantage-item">
+          <h2>Armada Terawat</h2>
+          <p>Kendaraan bersih dan nyaman untuk perjalanan.</p>
+        </div>
+
+        <div class="advantage-item">
+          <h2>Harga Transparan</h2>
+          <p>Estimasi biaya tersedia sebelum menghubungi admin.</p>
+        </div>
+
+        <div class="advantage-item">
+          <h2>Pemesanan Mudah</h2>
+          <p>Pilih mobil dan lanjutkan melalui WhatsApp.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DAFTAR ARMADA -->
+    <section id="armada" class="fleet section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">PILIHAN KENDARAAN</p>
+          <h2>Armada Pilihan</h2>
+          <p>Pilih kendaraan yang sesuai dengan perjalanan Anda.</p>
+        </div>
+
+        <div class="fleet-grid">
+          <!-- TOYOTA AVANZA -->
+          <article class="car-card">
+            <img
+              src="image/avanza.png"
+              alt="Toyota All-New Avanza"
+              class="car-image"
+              width="400"
+              height="260"
+              loading="lazy"
+            >
+
+            <div class="car-content">
+              <h3>Toyota All-New Avanza</h3>
+              <p class="car-category">MPV · Pilihan keluarga</p>
+
+              <p class="car-price">
+                Mulai <strong>Rp300.000</strong> / hari
+              </p>
+
+              <p class="car-note">Harga lepas kunci</p>
+
+              <button
+                type="button"
+                class="btn btn-primary booking-button"
+                data-car="Toyota All-New Avanza"
+                data-self-drive="300000"
+                data-with-driver="525000"
+              >
+                Pesan Sekarang
+              </button>
+            </div>
+          </article>
+
+          <!-- MITSUBISHI XPANDER -->
+          <article class="car-card">
+            <img
+              src="image/xpander.png"
+              alt="Mitsubishi Xpander"
+              class="car-image"
+              width="400"
+              height="260"
+              loading="lazy"
+            >
+
+            <div class="car-content">
+              <h3>Mitsubishi Xpander</h3>
+              <p class="car-category">MPV · Nyaman dan lega</p>
+
+              <p class="car-price">
+                Mulai <strong>Rp350.000</strong> / hari
+              </p>
+
+              <p class="car-note">Harga lepas kunci</p>
+
+              <button
+                type="button"
+                class="btn btn-primary booking-button"
+                data-car="Mitsubishi Xpander"
+                data-self-drive="350000"
+                data-with-driver="600000"
+              >
+                Pesan Sekarang
+              </button>
+            </div>
+          </article>
+
+          <!-- TOYOTA INNOVA -->
+          <article class="car-card">
+            <img
+              src="image/innova.png"
+              alt="Toyota Innova Reborn"
+              class="car-image"
+              width="400"
+              height="260"
+              loading="lazy"
+            >
+
+            <div class="car-content">
+              <h3>Toyota Innova Reborn</h3>
+              <p class="car-category">
+                MPV Premium · Kenyamanan ekstra
+              </p>
+
+              <p class="car-price">
+                Mulai <strong>Rp450.000</strong> / hari
+              </p>
+
+              <p class="car-note">Harga lepas kunci</p>
+
+              <button
+                type="button"
+                class="btn btn-primary booking-button"
+                data-car="Toyota Innova Reborn"
+                data-self-drive="450000"
+                data-with-driver="750000"
+              >
+                Pesan Sekarang
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <!-- TOYOTA ALPHARD -->
+        <article class="car-card">
+          <img
+            src="image/alphard.png"
+            alt="Toyota Alphard"
+            class="car-image"
+            width="400"
+            height="260"
+            loading="lazy"
+          >
+
+          <div class="car-content">
+            <h3>Toyota Alphard</h3>
+            <p class="car-category">
+              Luxury MPV · Perjalanan berkelas
+            </p>
+
+            <p class="car-price">
+              Mulai <strong>Rp4.200.000</strong> / hari
+            </p>
+
+            <p class="car-note">Dengan sopir</p>
+
+            <button
+              type="button"
+              class="btn btn-primary booking-button"
+              data-car="Toyota Alphard"
+              data-with-driver="4200000"
+              data-driver-only="true"
+            >
+              Pesan Sekarang
+            </button>
+          </div>
+        </article>
+
+        <!-- TOYOTA HIACE -->
+        <article class="car-card">
+          <img
+            src="image/hiace.png"
+            alt="Toyota Hiace Commuter"
+            class="car-image"
+            width="400"
+            height="260"
+            loading="lazy"
+          >
+
+          <div class="car-content">
+            <h3>Toyota Hiace Commuter</h3>
+            <p class="car-category">
+              Minibus · Pilihan perjalanan rombongan
+            </p>
+
+            <p class="car-price">
+              Mulai <strong>Rp1.800.000</strong> / hari
+            </p>
+
+            <p class="car-note">Dengan sopir</p>
+
+            <button
+              type="button"
+              class="btn btn-primary booking-button"
+              data-car="Toyota Hiace Commuter"
+              data-with-driver="1800000"
+              data-driver-only="true"
+            >
+              Pesan Sekarang
+            </button>
+          </div>
+        </article>
+
+        <p class="price-disclaimer">
+          Harga dapat berubah sesuai tanggal sewa dan pilihan
+          layanan. Hubungi admin untuk konfirmasi ketersediaan,
+          durasi harian, dan biaya.
+        </p>
+      </div>
+    </section>
+
+    <!-- LAYANAN -->
+    <section id="layanan" class="services section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">LAYANAN AURORA</p>
+          <h2>Sesuaikan dengan Kebutuhan Anda</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Lepas Kunci</h3>
+            <p>
+              Nikmati kebebasan berkendara sendiri dengan
+              kendaraan pilihan untuk perjalanan Anda.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <h3>Dengan Sopir</h3>
+            <p>
+              Nikmati perjalanan bersama sopir sehingga Anda
+              dapat lebih santai selama perjalanan.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARA MENYEWA -->
+    <section id="cara-sewa" class="how-to section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">MUDAH DAN PRAKTIS</p>
+          <h2>Cara Menyewa Mobil</h2>
+        </div>
+
+        <ol class="steps-grid">
+          <li class="step-card">
+            <h3>Pilih Mobil</h3>
+            <p>
+              Lihat armada dan tekan Pesan Sekarang pada mobil
+              yang Anda inginkan.
+            </p>
+          </li>
+
+          <li class="step-card">
+            <h3>Isi Detail Sewa</h3>
+            <p>
+              Lengkapi nama, tanggal, durasi, serta layanan
+              yang dibutuhkan.
+            </p>
+          </li>
+
+          <li class="step-card">
+            <h3>Lanjut ke WhatsApp</h3>
+            <p>
+              Tinjau rincian pesan, lalu kirim melalui WhatsApp
+              untuk menanyakan ketersediaan.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="contact section">
+      <div class="container contact-content">
+        <p class="section-label">AURORA RENT CAR & TOUR</p>
+        <h2>Siap Merencanakan Perjalanan?</h2>
+
+        <p>
+          Pilih kendaraan dan lengkapi detail perjalanan Anda.
+        </p>
+
+        <a href="#armada" class="btn btn-primary">
+          Pilih Armada
+        </a>
+
+        <p class="contact-location">
+          Melayani Bandung dan sekitarnya.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Aurora Rent Car & Tour.</p>
+
+      <p class="demo-notice">
+        Website ini merupakan proyek portofolio. Nomor WhatsApp
+        yang digunakan hanya untuk demonstrasi pemesanan dan
+        bukan kontak pemilik rental. Tidak menerima pemesanan nyata.
+      </p>
+    </div>
+  </footer>
+
+  <!-- POPUP PEMESANAN -->
+  <dialog
+    id="booking-dialog"
+    class="booking-dialog"
+    aria-labelledby="booking-title"
+    aria-describedby="booking-note"
+  >
+    <div class="booking-header">
+      <h2 id="booking-title">Detail Pemesanan</h2>
+
+      <button
+        type="button"
+        id="close-booking"
+        class="close-button"
+        aria-label="Tutup formulir pemesanan"
+      >
+        &times;
+      </button>
+    </div>
+
+    <form id="booking-form">
+      <div class="form-group">
+        <label for="selected-car">Mobil pilihan</label>
+        <input
+          type="text"
+          id="selected-car"
+          name="car"
+          readonly
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="customer-name">Nama penyewa</label>
+        <input
+          type="text"
+          id="customer-name"
+          name="customerName"
+          placeholder="Masukkan nama Anda"
+          autocomplete="name"
+          maxlength="100"
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="rental-date">Tanggal mulai sewa</label>
+        <input
+          type="date"
+          id="rental-date"
+          name="rentalDate"
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="rental-duration">Durasi sewa (hari)</label>
+        <input
+          type="number"
+          id="rental-duration"
+          name="duration"
+          min="1"
+          step="1"
+          value="1"
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="rental-service">Pilihan layanan</label>
+        <select id="rental-service" name="service" required>
+          <option value="self-drive">Lepas kunci</option>
+          <option value="with-driver">Dengan sopir</option>
+        </select>
+      </div>
+
+      <div class="booking-summary">
+        <p>Estimasi biaya</p>
+        <output id="estimated-total" aria-live="polite">
+          Pilih mobil terlebih dahulu
+        </output>
+      </div>
+
+      <p class="booking-note" id="booking-note">
+        Ini hanya demonstrasi pemesanan. WhatsApp tujuan bukan
+        kontak pemilik rental dan tidak menerima pemesanan nyata.
+        Pesan akan terisi otomatis dan perlu Anda kirim sendiri.
+      </p>
+
+      <button type="submit" class="btn btn-primary">
+        Lanjut ke WhatsApp
+      </button>
+    </form>
+  </dialog>
+</body>
+</html>
